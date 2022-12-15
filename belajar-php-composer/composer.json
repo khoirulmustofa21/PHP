@@ -1,0 +1,19 @@
+{
+    "name": "khoirul/belajar-php-composer",
+    "description": "belajar PHP composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "khoirul mustofa",
+            "email": "datatoblenk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KhoirulMustofa\\" : "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "2.2.0"
+    }
+}
